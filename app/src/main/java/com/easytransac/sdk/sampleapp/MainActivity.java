@@ -11,30 +11,6 @@ import android.view.View;
 import android.widget.Toast;
 import java.util.Map;
 
-/**
- * Sample application showing how to use the mobile Easytransac SDK
- * Possibles fields:
- *   apiKey: string;
- *   amount: string;
- *   callback: string;
- *   isMultiplePayment?: string;
- *   downPayment?: string;
- *   multiplePaymentRepeat?: string;
- *   isDemo?: string;
- *   detectionMethod?: PaymentMethodEnum;
- *   orderId?: string;
- *   orderDescription?: string;
- *   customerFirstname?: string;
- *   customerLastname?: string;
- *   customerEmail?: string;
- *   customerCallingCode?: string;
- *   customerPhone?: string;
- *   useCvv?: string;
- *   debug?: string;
- *   payToEmail?: string;
- *   payToId?: string;
- *   preAuth?: string;
- */
 public class MainActivity extends AppCompatActivity {
 
     private final static String TAG = "SampleApp";
