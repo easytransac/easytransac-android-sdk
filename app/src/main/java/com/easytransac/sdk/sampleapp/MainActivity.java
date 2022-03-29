@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
         queryParams.put("amount", "10000");
         queryParams.put("demo", "true");
         queryParams.put("multiplePayments", "true");
-        queryParams.put("downPayment", "30");
+        queryParams.put("downPayment", "3000");
         queryParams.put("multiplePaymentsRepeat", "3");
         queryParams.put("callback", CALLBACK_SCHEME);
 
