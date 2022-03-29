@@ -3,9 +3,12 @@
 ## Présentation
 
 Le SDK Android d'Easytransac permet de payer depuis votre application Android en toute sécurité en effectuant une demande de paiement à l'application Easytransac, directement depuis votre application.
-L'intégration est simple à réaliser et offre à vos clients une expérience de paiement optimale.
-Notre SDK Android vous **permet d'utiliser le NFC, le Flash de carte, l'entrée manuelle, le paiement distant Email, SMS et QRCode, ainsi que de réaliser des paiements multiples**, le tout très simplement via une liste de paramètre à envoyer à l'application Easytransac depuis votre application mobile en utilisant les URL scheme.
 
+L'intégration est simple à réaliser et offre à vos clients une expérience de paiement optimale.
+
+Notre SDK Android vous **permet d'utiliser le NFC, le flash de carte, l'entrée manuelle, le paiement distant Email, SMS et QRCode, ainsi que de réaliser des paiements multiples**, le tout très simplement via une liste de paramètres à envoyer à l'application Easytransac, depuis votre application mobile, en utilisant une URL.
+
+Découvrez également ce même SDK sur iOS :  https://github.com/easytransac/easytransac-ios-sdk/
 
 ## Prérequis
 
