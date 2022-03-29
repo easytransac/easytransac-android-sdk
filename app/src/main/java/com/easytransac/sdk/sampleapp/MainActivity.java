@@ -39,12 +39,12 @@ public class MainActivity extends AppCompatActivity {
         Map<String, String> queryParams = new ArrayMap<>();
         queryParams.put("apiKey", API_KEY);
         queryParams.put("paymentMethod", "nfc");
-        queryParams.put("amount", "1.01");
-        queryParams.put("isDemo", "true");
+        queryParams.put("amount", "101");
+        queryParams.put("demo", "true");
         queryParams.put("callback", CALLBACK_SCHEME);
 
-        queryParams.put("customerLastname", "Lademo");
-        queryParams.put("customerFirstname", "Pierre");
+        queryParams.put("lastname", "Lademo");
+        queryParams.put("firstname", "Pierre");
 
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(generateUrlScheme(queryParams)));
         startActivity(intent);
@@ -54,12 +54,12 @@ public class MainActivity extends AppCompatActivity {
         Map<String, String> queryParams = new ArrayMap<>();
         queryParams.put("apiKey", API_KEY);
         queryParams.put("paymentMethod", "manual");
-        queryParams.put("amount", "1.02");
-        queryParams.put("isDemo", "true");
+        queryParams.put("amount", "102");
+        queryParams.put("demo", "true");
         queryParams.put("callback", CALLBACK_SCHEME);
 
-        queryParams.put("customerLastname", "Lademo");
-        queryParams.put("customerFirstname", "Pierre");
+        queryParams.put("lastname", "Lademo");
+        queryParams.put("firstname", "Pierre");
 
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(generateUrlScheme(queryParams)));
         startActivity(intent);
@@ -69,11 +69,11 @@ public class MainActivity extends AppCompatActivity {
         Map<String, String> queryParams = new ArrayMap<>();
         queryParams.put("apiKey", API_KEY);
         queryParams.put("paymentMethod", "flash");
-        queryParams.put("amount", "100");
-        queryParams.put("isDemo", "true");
-        queryParams.put("isMultiplePayment", "true");
+        queryParams.put("amount", "10000");
+        queryParams.put("demo", "true");
+        queryParams.put("multiplePayments", "true");
         queryParams.put("downPayment", "30");
-        queryParams.put("multiplePaymentRepeat", "3");
+        queryParams.put("multiplePaymentsRepeat", "3");
         queryParams.put("callback", CALLBACK_SCHEME);
 
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(generateUrlScheme(queryParams)));
@@ -84,9 +84,9 @@ public class MainActivity extends AppCompatActivity {
         Map<String, String> queryParams = new ArrayMap<>();
         queryParams.put("apiKey", API_KEY);
         queryParams.put("paymentMethod", "mail");
-        queryParams.put("customerEmail", "demo@easytransac.com");
-        queryParams.put("amount", "1.03");
-        queryParams.put("isDemo", "true");
+        queryParams.put("email", "demo@easytransac.com");
+        queryParams.put("amount", "103");
+        queryParams.put("demo", "true");
         queryParams.put("callback", CALLBACK_SCHEME);
 
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(generateUrlScheme(queryParams)));
@@ -97,8 +97,8 @@ public class MainActivity extends AppCompatActivity {
         Map<String, String> queryParams = new ArrayMap<>();
         queryParams.put("apiKey", API_KEY);
         queryParams.put("paymentMethod", "qrcode");
-        queryParams.put("amount", "1.04");
-        queryParams.put("isDemo", "true");
+        queryParams.put("amount", "104");
+        queryParams.put("demo", "true");
         queryParams.put("callback", CALLBACK_SCHEME);
 
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(generateUrlScheme(queryParams)));
@@ -109,10 +109,10 @@ public class MainActivity extends AppCompatActivity {
         Map<String, String> queryParams = new ArrayMap<>();
         queryParams.put("apiKey", API_KEY);
         queryParams.put("paymentMethod", "sms");
-        queryParams.put("amount", "1.05");
-        queryParams.put("isDemo", "true");
-        queryParams.put("customerPhone", "0611223344");
-        queryParams.put("customerCallingCode", "33");
+        queryParams.put("amount", "105");
+        queryParams.put("demo", "true");
+        queryParams.put("phone", "0611223344");
+        queryParams.put("callingCode", "33");
         queryParams.put("callback", CALLBACK_SCHEME);
 
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(generateUrlScheme(queryParams)));
@@ -123,8 +123,8 @@ public class MainActivity extends AppCompatActivity {
         Map<String, String> queryParams = new ArrayMap<>();
         queryParams.put("apiKey", API_KEY);
         queryParams.put("paymentMethod", "flash");
-        queryParams.put("amount", "1.07");
-        queryParams.put("isDemo", "true");
+        queryParams.put("amount", "107");
+        queryParams.put("demo", "true");
         queryParams.put("callback", CALLBACK_SCHEME);
 
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(generateUrlScheme(queryParams)));
