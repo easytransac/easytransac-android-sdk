@@ -1,40 +1,42 @@
-# SDK Android Easytransac
+# Easytransac Android SDK
 
-## Présentation
+## Overview
 
-Le SDK Android d'Easytransac permet de payer depuis votre application Android en toute sécurité en effectuant une demande de paiement à l'application Easytransac, directement depuis votre application.
+The Easytransac Android SDK allows you to securely process payments from your Android application by sending a payment request to the Easytransac app, directly from your app.
 
-L'intégration est simple à réaliser et offre à vos clients une expérience de paiement optimale.
+The integration is simple and provides your users with an optimal payment experience.
 
-Notre SDK Android vous **permet d'utiliser le NFC, le flash de carte, l'entrée manuelle, le paiement distant Email, SMS et QRCode, ainsi que de réaliser des paiements multiples**, le tout très simplement via une liste de paramètres à envoyer à l'application Easytransac, depuis votre application mobile, en utilisant une URL.
+Our Android SDK **allows you to use NFC, card scanning, manual entry, remote payments via Email, SMS and QR Code, as well as multiple payments**, all very easily by sending a list of parameters to the Easytransac application from your mobile app using a URL.
 
-Découvrez également ce même SDK sur iOS :  https://github.com/easytransac/easytransac-ios-sdk/
+You can also discover the iOS version of this SDK here:  
+https://github.com/easytransac/easytransac-ios-sdk/
 
-## Prérequis
+## Requirements
 
-- Application Easytransac installée sur le périphérique.
-- Version d'Easytransac à jour 7.9.0+
+- Easytransac application installed on the device  
+- Easytransac version 7.9.0 or higher  
 
-Pour télécharger l'application et bénéficier du SDK, voici le lien vers l'application : https://play.google.com/store/apps/details?id=com.movidone.easytransac
+To download the application and use the SDK:  
+https://play.google.com/store/apps/details?id=com.movidone.easytransac
 
+## How it works
 
-## Fonctionnement
+The SDK is embedded directly within the Easytransac application available on the Google Play Store. To use it, you need to call the application using the following URL scheme:
 
-Le SDK est intégré dans l'application Easytransac elle-même, présente sur le Google Play Store. Pour l'utiliser, il faut appeler l'application via une URL easytransac://pay
+easytransac://pay
 
+## Documentation and parameters
 
-## Documentation et paramètres
+The parameters related to the SDK configuration are available in our public documentation:  
+https://www.easytransac.com/en/documentation#tag/Appendices/Android-iOS-SDK
 
-Les paramètres relatifs à la configuration du SDK se trouvent sur notre documentation publique : https://www.easytransac.com/fr/documentation#section/SDK-mobile-iOS-Android
+## General information
 
-
-## Informations générales
-
- - Toutes les dates sont basées sur le fuseau Europe/Paris UTC/GMT +1.
- - L'encodage des caractères est fait selon l'ISO 8859-1
-
+- All dates are based on the Europe/Paris timezone (UTC/GMT +1)  
+- Character encoding is ISO 8859-1  
 
 ## Sample app
 
-Le projet contient une application Android montrant l'intégration du SDK.
-Vous pouvez récupérer le projet courrant et le compiler pour tester l'intégration.
+This project includes an Android application demonstrating how to integrate the SDK.
+
+You can clone the repository and build the sample app to test the integration.
